@@ -4,8 +4,8 @@ using namespace std;
 
 int main (int argc, char *argv[]) {
 	
-	Juego j1;
-	j1.iniciaJuego();
+	Juego jugadores;//crea a los jugadores
+	jugadores.iniciaJuego();//inicia el juego
 	
 	return 0;
 }
